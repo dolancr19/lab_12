@@ -1,0 +1,15 @@
+//--------------------------------------------------------
+//uTimerScript Configuration Block (Created from Plugin)
+
+ProcessConfig = uTimerScript
+{
+  AppTick     = 2
+  CommsTick   = 2
+  
+  condition = DEPLOY = true
+
+  event = var = HAZARDSET_REQUEST, val=true, time=200:201
+
+  reset_max = nolimit
+  reset_time = all-posted 
+}
