@@ -75,10 +75,10 @@ ProcessConfig = uFldNodeComms
   AppTick       = 2
   CommsTick     = 2
 
-  comms_range          = 10000
+  comms_range          = 100
   critical_range       = 25
   min_msg_interval     = 0
-  max_msg_length       = 10000
+  max_msg_length       = 100
 
   //comms_range          = 100000
   //critical_range       = 25
@@ -142,6 +142,9 @@ ProcessConfig = uFldHazardSensor
   show_swath=true
   show_hazards=true
   show_reports=30
+
+  show_pd = true
+  show_pfa = true
 
   hazard_file   = $(HAZARD_FILE)
 }
