@@ -8,7 +8,7 @@ ProcessConfig = uTimerScript
   
   condition = DEPLOY = true
 
-  event = var = VEHICLE_REPORT_REQUEST, val = true, time=60 
+  event = var = VEHICLE_REPORT_REQUEST, val = true, time=70 
 
 //  event = var = NODE_MESSAGE_LOCAL, val= "src_node=$(VNAME), dest_node=all, var_name = HAZARDSET_REQUEST, string_val=true", time=60
 
